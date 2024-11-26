@@ -1,0 +1,377 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.mainDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.innerDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 95%;
+    background-color: rgb(209, 209, 209);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    padding: 40px 0px 20px 20px;
+    margin: 10px;
+}
+
+.nameD {
+    background-color: rgb(209, 209, 209);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.topDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.name {
+    font-size: 74px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    color: cadetblue;
+    padding: 0px 50px 0px 50px;
+}
+
+.imgDiv{
+    height: 200px;
+    width: 200px;
+    margin: 0px 10px 0px 50px;
+
+}
+.image1 {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin: 0px 10px 0px 50px;
+}
+
+.imgDiv:hover {
+    cursor: pointer;
+}
+
+.personalInfo {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 00px;
+}
+
+.title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 48px;
+    color: rgb(13, 125, 126);
+    font-weight: 900;
+    width: 50%;
+}
+
+.content {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    width: 50%;
+}
+
+.list {
+    padding: 10px 0px 0px 0px;
+}
+
+.subList {
+    font-size: 18px;
+    font-weight: 900;
+    color: #eeeeee;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Skills {
+    transition: 1s ease-in-out;
+}
+
+.buttonDiv {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button1 {
+    border-radius: 50px;
+    box-shadow: 0px 10px 1px rgb(187, 187, 187);
+    padding: 12px 22px;
+    border: none;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: cadetblue;
+    font-weight: 900;
+    margin: 20px;
+    background-color: white;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.button1:hover {
+    cursor: pointer;
+}
+
+.button1:focus {
+    transform: translateY(5px);
+    box-shadow: 0px 5px 5px rgb(149, 205, 206);
+    background-color: rgb(145, 216, 217);
+}
+
+@media only screen and (max-width:3001px) and (min-width:1800px) {
+
+    .name {
+        font-size: 120px;
+    }
+
+    .image1 {
+        height: 300px;
+        width: 240px;
+    }
+
+    .title {
+        font-size: 64px;
+    }
+
+    .content {
+        font-size: 38px;
+    }
+
+    .subList {
+        font-size: 26px;
+    }
+
+    .button1 {
+        box-shadow: 0px 18px 1px rgb(187, 187, 187);
+        padding: 20px 35px;
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width:1800px) and (min-width:1300px) {
+
+    .name {
+        font-size: 90px;
+    }
+
+    .image1 {
+        height: 250px;
+        width: 200px;
+    }
+
+    .title {
+        font-size: 52px;
+    }
+
+    .content {
+        font-size: 26px;
+    }
+
+    .subList {
+        font-size: 18px;
+    }
+
+    .button1 {
+        box-shadow: 0px 12px 1px rgb(187, 187, 187);
+        padding: 15px 30px;
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width:1300px) and (min-width:980px) {
+
+    .name {
+        font-size: 64px;
+    }
+
+    .image1 {
+        height: 190px;
+        width: 160px;
+    }
+
+    .title {
+        font-size: 40px;
+    }
+
+    .content {
+        font-size: 22px;
+    }
+
+    .subList {
+        font-size: 16px;
+    }
+
+    .button1 {
+        box-shadow: 0px 10px 1px rgb(187, 187, 187);
+        padding: 12px 25px;
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width:980px) and (min-width:700px) {
+
+    .name {
+        font-size: 50px;
+    }
+
+    .image1 {
+        height: 150px;
+        width: 120px;
+        border: 6px solid cadetblue;
+
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .content {
+        font-size: 18px;
+    }
+
+    .subList {
+        font-size: 13px;
+    }
+
+    .button1 {
+        box-shadow: 0px 8px 1px rgb(187, 187, 187);
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:700px) and (min-width:500px) {
+
+    .nameD {
+        border-top-right-radius: 35px;
+        border-bottom-right-radius: 35px;
+    }
+
+    .name {
+        font-size: 44px;
+        padding: 0px 25px 0px 20px;
+    }
+
+    .image1 {
+        height: 120px;
+        width: 100px;
+        border: 5px solid cadetblue;
+
+    }
+
+    .personalInfo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 00px;
+    }
+
+    .title {
+        font-size: 30px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .content {
+        font-size: 18px;
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px 0px 30px 0px;
+        width: 50%;
+    }
+
+    .subList {
+        font-size: 13px;
+    }
+
+    .button1 {
+        box-shadow: 0px 8px 1px rgb(187, 187, 187);
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:500px) and (min-width:200px) {
+
+    .nameD {
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+
+    .name {
+        font-size: 30px;
+        padding: 0px 20px 0px 10px;
+    }
+
+    .image1 {
+        height: 80px;
+        width: 60px;
+        border: 4px solid cadetblue;
+
+    }
+
+    .personalInfo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 00px;
+    }
+
+    .title {
+        font-size: 24px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .content {
+        font-size: 14px;
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px 0px 30px 0px;
+        width: 50%;
+    }
+
+    .subList {
+        font-size: 10px;
+    }
+
+    .button1 {
+        box-shadow: 0px 5px 1px rgb(187, 187, 187);
+        padding: 8px 15px;
+        font-size: 15px;
+    }
+}
